@@ -1,0 +1,13 @@
+ca-certificates
+curl
+file
+less
+locales
+man-db
+nano
+network-manager
+sudo
+systemd-timesyncd
+vim-tiny
+wget
+

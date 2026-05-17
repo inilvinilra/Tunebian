@@ -1,0 +1,16 @@
+#!/bin/sh
+set -eu
+
+lb config noauto \
+  --architectures "${TUNEBIAN_ARCH:-amd64}" \
+  --archive-areas "${TUNEBIAN_ARCHIVE_AREAS:-main contrib non-free-firmware non-free}" \
+  --binary-images iso-hybrid \
+  --bootappend-live "${TUNEBIAN_BOOTAPPEND:-boot=live components quiet splash}" \
+  --debian-installer live \
+  --debian-installer-gui false \
+  --distribution "${TUNEBIAN_DEBIAN_SUITE:-stable}" \
+  --iso-application "${TUNEBIAN_ISO_APPLICATION:-Tunebian Live}" \
+  --iso-publisher "${TUNEBIAN_ISO_PUBLISHER:-Tunebian Project}" \
+  --iso-volume "${TUNEBIAN_ISO_VOLUME:-Tunebian Live}" \
+  "${@}"
+
