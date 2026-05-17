@@ -1,0 +1,12 @@
+label live-@FLAVOUR@
+	menu label ^Start Tunebian Live (@FLAVOUR@)
+	menu default
+	linux @LINUX@
+	initrd @INITRD@
+	append @APPEND_LIVE@
+
+label live-@FLAVOUR@-failsafe
+	menu label Start Tunebian Live (@FLAVOUR@ fail-safe mode)
+	linux @LINUX@
+	initrd @INITRD@
+	append @APPEND_LIVE_FAILSAFE@

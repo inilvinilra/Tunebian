@@ -17,4 +17,11 @@ config/source
 *.qcow2
 *.raw
 *.log
+*.contents
+*.files
+*.packages
+*.packages.install
+*.packages.live
+binary.modified_timestamps
+chroot.files
 .DS_Store

@@ -1,0 +1,19 @@
+#!/bin/sh
+set -eu
+
+# live-build still generates a few binary-stage labels from Debian templates.
+# Rewrite those generated boot/media labels after bootloader files are created.
+find . -type f \( \
+  -path './isolinux/*.cfg' -o \
+  -path './syslinux/*.cfg' -o \
+  -path './boot/grub/*.cfg' -o \
+  -path './.disk/*' -o \
+  -name 'autorun.inf' -o \
+  -name 'win32-loader.ini' \
+\) -exec sed -i \
+  -e 's/Debian GNU\/Linux/Tunebian GNU\/Linux/g' \
+  -e 's/Debian Live/Tunebian Live/g' \
+  -e 's/Live system/Tunebian Live/g' \
+  -e 's/Start installer/Start Tunebian installer/g' \
+  -e 's/Advanced install options/Advanced Tunebian install options/g' \
+  {} +

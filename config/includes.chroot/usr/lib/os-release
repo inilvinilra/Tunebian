@@ -1,0 +1,10 @@
+PRETTY_NAME="Tunebian GNU/Linux 13 (trixie)"
+NAME="Tunebian GNU/Linux"
+VERSION_ID="13"
+VERSION="13 (trixie)"
+VERSION_CODENAME=trixie
+ID=tunebian
+ID_LIKE=debian
+HOME_URL="https://tunebian.local/"
+SUPPORT_URL="https://tunebian.local/support"
+BUG_REPORT_URL="https://tunebian.local/bugs"

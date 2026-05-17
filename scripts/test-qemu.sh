@@ -19,6 +19,6 @@ exec qemu-system-x86_64 \
   -enable-kvm \
   -cdrom "$ISO_PATH" \
   -boot d \
+  -nic user,model=virtio-net-pci \
   -device virtio-vga \
   -display gtk
-
