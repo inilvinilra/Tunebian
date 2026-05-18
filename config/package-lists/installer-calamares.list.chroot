@@ -1,0 +1,14 @@
+calamares
+calamares-settings-debian
+btrfs-progs
+cryptsetup
+dosfstools
+efibootmgr
+grub-common
+grub2-common
+grub-efi-amd64-bin
+grub-pc-bin
+os-prober
+rsync
+squashfs-tools
+xfsprogs

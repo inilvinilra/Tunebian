@@ -15,5 +15,5 @@ find . -type f \( \
   -e 's/Debian Live/Tunebian Live/g' \
   -e 's/Live system/Tunebian Live/g' \
   -e 's/Start installer/Start Tunebian installer/g' \
-  -e 's/Advanced install options/Advanced Tunebian install options/g' \
+  -e 's/Advanced install options/Advanced Tunebian boot options/g' \
   {} +

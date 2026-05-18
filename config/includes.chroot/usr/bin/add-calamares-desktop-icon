@@ -1,0 +1,17 @@
+#!/bin/sh
+set -eu
+
+DESKTOP="$(xdg-user-dir DESKTOP)"
+mkdir -p "$DESKTOP"
+
+cp /usr/share/applications/calamares-install-tunebian.desktop "$DESKTOP/Install Tunebian.desktop"
+chmod +x "$DESKTOP/Install Tunebian.desktop"
+
+if [ "${XDG_CURRENT_DESKTOP:-}" = "XFCE" ]; then
+    gio set --type=string "$DESKTOP/Install Tunebian.desktop" metadata::trusted true || true
+    gio set --type=string "$DESKTOP/Install Tunebian.desktop" metadata::xfce-exe-checksum \
+        "$(sha256sum "$DESKTOP/Install Tunebian.desktop" | cut -f1 -d' ')" || true
+    touch "$DESKTOP/Install Tunebian.desktop"
+fi
+
+ionice -C Idle cat /usr/bin/calamares >/dev/null 2>&1 || true

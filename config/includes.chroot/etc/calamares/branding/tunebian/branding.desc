@@ -1,0 +1,39 @@
+---
+componentName: tunebian
+welcomeStyleCalamares: true
+welcomeExpandingLogo: true
+windowExpanding: normal
+windowSize: 900px,620px
+windowPlacement: center
+
+strings:
+    productName:         Tunebian GNU/Linux
+    shortProductName:    Tunebian
+    version:             13
+    shortVersion:        13
+    versionedName:       Tunebian 13
+    shortVersionedName:  Tunebian 13
+    bootloaderEntryName: Tunebian
+    productUrl:          https://tunebian.local
+    supportUrl:          https://tunebian.local/support
+    knownIssuesUrl:      https://tunebian.local/bugs
+    releaseNotesUrl:     https://tunebian.local/releases
+    donateUrl:           https://tunebian.local
+
+sidebar: widget
+navigation: widget
+
+images:
+    productLogo:         "tunebian-logo.svg"
+    productIcon:         "tunebian-logo.svg"
+    productWelcome:      "tunebian-welcome.svg"
+
+slideshow: "show.qml"
+
+style:
+   SidebarBackground: "#051923"
+   SidebarText: "#e8fbff"
+   SidebarTextCurrent: "#ffffff"
+   SidebarBackgroundCurrent: "#00798c"
+
+slideshowAPI: 2

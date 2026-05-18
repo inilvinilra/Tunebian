@@ -7,7 +7,7 @@ lb config noauto \
   --binary-images iso-hybrid \
   --bootappend-live "${TUNEBIAN_BOOTAPPEND:-boot=live components quiet splash hostname=tunebian username=tunebian user-fullname=Tunebian}" \
   --bootappend-live-failsafe "${TUNEBIAN_BOOTAPPEND_FAILSAFE:-boot=live components memtest noapic noapm nodma nomce nosmp nosplash vga=788 hostname=tunebian username=tunebian user-fullname=Tunebian}" \
-  --debian-installer live \
+  --debian-installer none \
   --debian-installer-gui false \
   --distribution "${TUNEBIAN_DEBIAN_SUITE:-stable}" \
   --iso-application "${TUNEBIAN_ISO_APPLICATION:-Tunebian Live}" \

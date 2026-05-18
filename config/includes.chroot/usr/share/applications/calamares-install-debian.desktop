@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Install Tunebian
+GenericName=System Installer
+Exec=calamares-install-tunebian
+Comment=Install Tunebian GNU/Linux to disk
+Keywords=calamares;system;install;tunebian;installer
+Icon=install-tunebian
+Terminal=false
+Categories=Qt;System;
+StartupWMClass=calamares
+StartupNotify=True
