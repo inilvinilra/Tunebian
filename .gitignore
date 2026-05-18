@@ -25,3 +25,5 @@ config/source
 binary.modified_timestamps
 chroot.files
 .DS_Store
+.lock
+
