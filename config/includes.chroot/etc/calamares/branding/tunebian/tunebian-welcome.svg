@@ -17,7 +17,7 @@
   <circle cx="162" cy="168" r="72" fill="none" stroke="url(#mark)" stroke-width="16"/>
   <path d="M132 170 l32 32 l70 -88" fill="none" stroke="#ffffff" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
   <text x="282" y="146" fill="#ffffff" font-family="DejaVu Sans, Arial, sans-serif" font-size="48" font-weight="700">Tunebian 13</text>
-  <text x="285" y="204" fill="#c5f6fa" font-family="DejaVu Sans, Arial, sans-serif" font-size="25">Debian tabanli, hizli ve sakin kurulum</text>
-  <text x="286" y="262" fill="#d8f3dc" font-family="DejaVu Sans Mono, monospace" font-size="19">Calamares ile grafik kurulum</text>
-  <text x="286" y="294" fill="#d8f3dc" font-family="DejaVu Sans Mono, monospace" font-size="19">Live sistemden dogrudan Tunebian kurulumu</text>
+  <text x="285" y="204" fill="#c5f6fa" font-family="DejaVu Sans, Arial, sans-serif" font-size="25">A fast, calm Debian-based installation</text>
+  <text x="286" y="262" fill="#d8f3dc" font-family="DejaVu Sans Mono, monospace" font-size="19">Graphical installation with Calamares</text>
+  <text x="286" y="294" fill="#d8f3dc" font-family="DejaVu Sans Mono, monospace" font-size="19">Install Tunebian directly from the live system</text>
 </svg>

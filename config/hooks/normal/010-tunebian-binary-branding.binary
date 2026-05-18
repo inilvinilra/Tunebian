@@ -1,8 +1,6 @@
 #!/bin/sh
 set -eu
 
-# live-build still generates a few binary-stage labels from Debian templates.
-# Rewrite those generated boot/media labels after bootloader files are created.
 find . -type f \( \
   -path './isolinux/*.cfg' -o \
   -path './syslinux/*.cfg' -o \

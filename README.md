@@ -247,9 +247,3 @@ This script is a repair/debug helper, not the normal installation path.
 - Use fresh qcow2 disks when validating installer behavior.
 - Keep live-only conveniences out of installed systems; Calamares cleanup should remove installer launchers and temporary sudo rules.
 - Do not assume live boot success means install success; always boot the installed disk without the ISO attached.
-
-## Reference Docs
-
-- [Roadmap](docs/distro-roadmap.md)
-- [Container development](docs/container-development.md)
-- [Decisions](docs/decisions.md)
